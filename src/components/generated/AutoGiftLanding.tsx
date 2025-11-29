@@ -663,7 +663,7 @@ export const AutoGiftLanding = (props: AutoGiftLandingProps) => {
               <SortableContainer dndKitId="77253c8b-9bc0-4d7a-a894-95b95ef6b371" containerType="regular" prevTag="div" className="flex items-center justify-between flex-wrap gap-4" data-magicpath-id="235" data-magicpath-path="AutoGiftLanding.tsx">
                 <SortableContainer dndKitId="7890cb17-3428-4f2a-ad17-dbb525949278" containerType="regular" prevTag="div" data-magicpath-id="236" data-magicpath-path="AutoGiftLanding.tsx">
                   <p className="text-[#0C0C0D]/60 mb-1" data-magicpath-id="237" data-magicpath-path="AutoGiftLanding.tsx">$100 gift budget</p>
-                  <p className="text-3xl font-bold text-[#0C0C0D]" data-magicpath-id="238" data-magicpath-path="AutoGiftLanding.tsx">$110 <span className="text-lg font-normal text-[#0C0C0D]/60" data-magicpath-id="239" data-magicpath-path="AutoGiftLanding.tsx">total per recipient</span></p>
+                  <p className="text-3xl font-bold text-[#0C0C0D]" data-magicpath-id="238" data-magicpath-path="AutoGiftLanding.tsx">$120 total per recipient</p>
                 </SortableContainer>
                 <SortableContainer dndKitId="e721febc-130f-4428-b006-47f13d878e45" containerType="regular" prevTag="div" className="px-6 py-3 bg-gradient-to-r from-[#E2C382]/20 to-[#F0D8B6]/20 rounded-full" data-magicpath-id="240" data-magicpath-path="AutoGiftLanding.tsx">
                   <span className="text-sm font-medium text-[#073D2B]" data-magicpath-id="241" data-magicpath-path="AutoGiftLanding.tsx">20% service margin</span>
@@ -675,7 +675,7 @@ export const AutoGiftLanding = (props: AutoGiftLandingProps) => {
               <SortableContainer dndKitId="5dd2099a-f360-4f30-8cdb-878b648af1f7" containerType="regular" prevTag="div" className="flex items-center justify-between flex-wrap gap-4" data-magicpath-id="243" data-magicpath-path="AutoGiftLanding.tsx">
                 <SortableContainer dndKitId="11335607-fd05-4c38-a7cf-7759b51e30c4" containerType="regular" prevTag="div" data-magicpath-id="244" data-magicpath-path="AutoGiftLanding.tsx">
                   <p className="text-[#0C0C0D]/60 mb-1" data-magicpath-id="245" data-magicpath-path="AutoGiftLanding.tsx">$250 gift budget</p>
-                  <p className="text-3xl font-bold text-[#0C0C0D]" data-magicpath-id="246" data-magicpath-path="AutoGiftLanding.tsx">$275 <span className="text-lg font-normal text-[#0C0C0D]/60" data-magicpath-id="247" data-magicpath-path="AutoGiftLanding.tsx">total per recipient</span></p>
+                  <p className="text-3xl font-bold text-[#0C0C0D]" data-magicpath-id="246" data-magicpath-path="AutoGiftLanding.tsx">$300 total per recipient</p>
                 </SortableContainer>
                 <SortableContainer dndKitId="c5efaa3f-3c1d-4034-abc9-bdc71f25962d" containerType="regular" prevTag="div" className="px-6 py-3 bg-gradient-to-r from-[#E2C382]/20 to-[#F0D8B6]/20 rounded-full" data-magicpath-id="248" data-magicpath-path="AutoGiftLanding.tsx">
                   <span className="text-sm font-medium text-[#073D2B]" data-magicpath-id="249" data-magicpath-path="AutoGiftLanding.tsx">20% service margin</span>
@@ -687,7 +687,7 @@ export const AutoGiftLanding = (props: AutoGiftLandingProps) => {
               <SortableContainer dndKitId="a6e78c09-a2f4-45b8-bd75-f64c80aaee25" containerType="regular" prevTag="div" className="flex items-center justify-between flex-wrap gap-4" data-magicpath-id="251" data-magicpath-path="AutoGiftLanding.tsx">
                 <SortableContainer dndKitId="ea526841-1480-4a30-b8f5-37bfa824644c" containerType="regular" prevTag="div" data-magicpath-id="252" data-magicpath-path="AutoGiftLanding.tsx">
                   <p className="text-[#0C0C0D]/60 mb-1" data-magicpath-id="253" data-magicpath-path="AutoGiftLanding.tsx">$500 gift budget</p>
-                  <p className="text-3xl font-bold text-[#0C0C0D]" data-magicpath-id="254" data-magicpath-path="AutoGiftLanding.tsx">$550 <span className="text-lg font-normal text-[#0C0C0D]/60" data-magicpath-id="255" data-magicpath-path="AutoGiftLanding.tsx">total per recipient</span></p>
+                  <p className="text-3xl font-bold text-[#0C0C0D]" data-magicpath-id="254" data-magicpath-path="AutoGiftLanding.tsx">$600 total per recipient</p>
                 </SortableContainer>
                 <SortableContainer dndKitId="55813d94-f212-4073-a6bd-715fce6e4955" containerType="regular" prevTag="div" className="px-6 py-3 bg-gradient-to-r from-[#E2C382]/20 to-[#F0D8B6]/20 rounded-full" data-magicpath-id="256" data-magicpath-path="AutoGiftLanding.tsx">
                   <span className="text-sm font-medium text-[#073D2B]" data-magicpath-id="257" data-magicpath-path="AutoGiftLanding.tsx">20% service margin</span>
