@@ -110,13 +110,16 @@ export const AutoGiftLanding = (props: AutoGiftLandingProps) => {
             <button onClick={() => scrollToSection('hero')} className="text-sm font-medium text-[#0C0C0D]/70 hover:text-[#0C0C0D] transition-colors">
               Home
             </button>
-            <button onClick={() => scrollToSection('how-it-works')} className="text-sm font-medium text-[#0C0C0D]/70 hover:text-[#0C0C0D] transition-colors">
-              How It Works
-            </button>
             <button onClick={() => scrollToSection('pricing')} className="text-sm font-medium text-[#0C0C0D]/70 hover:text-[#0C0C0D] transition-colors">
-              Pricing
+              About
             </button>
             <button onClick={() => scrollToSection('use-cases')} className="text-sm font-medium text-[#0C0C0D]/70 hover:text-[#0C0C0D] transition-colors">
+              How It Works
+            </button>
+            <button onClick={() => scrollToSection('pricing-details')} className="text-sm font-medium text-[#0C0C0D]/70 hover:text-[#0C0C0D] transition-colors">
+              Pricing
+            </button>
+            <button onClick={() => scrollToSection('perfect-for-teams')} className="text-sm font-medium text-[#0C0C0D]/70 hover:text-[#0C0C0D] transition-colors">
               Use Cases
             </button>
           </div>
@@ -153,7 +156,7 @@ export const AutoGiftLanding = (props: AutoGiftLandingProps) => {
         </div>
       </motion.nav>
 
-      <motion.section id="hero" className="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden" style={{
+      <motion.section id="hero" className="relative min-h-screen flex items-center justify-center px-4 pt-32 pb-20 overflow-hidden" style={{
       y: heroY,
       opacity: heroOpacity
     }}>
@@ -221,15 +224,6 @@ export const AutoGiftLanding = (props: AutoGiftLandingProps) => {
                   <Gift className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" />
                 </span>
               </motion.a>
-
-              <motion.button onClick={() => setShowExampleForm(true)} className="px-8 py-4 bg-white/60 backdrop-blur-sm text-[#0C0C0D] rounded-full font-semibold text-lg border-2 border-[#E2C382]/30 hover:border-[#E2C382] transition-all duration-300 text-center" whileHover={{
-              scale: 1.02,
-              y: -2
-            }} whileTap={{
-              scale: 0.98
-            }}>
-                See An Example
-              </motion.button>
             </motion.div>
 
             <motion.p variants={fadeInUp} className="mt-6 text-sm text-[#0C0C0D]/60 italic">
@@ -415,18 +409,44 @@ export const AutoGiftLanding = (props: AutoGiftLandingProps) => {
         <div className="max-w-7xl mx-auto">
           <motion.div variants={fadeInUp} className="text-center mb-16">
             <h2 className="text-sm font-semibold text-[#E2C382] tracking-wider uppercase mb-4">Trusted By</h2>
-            <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-              <div className="w-32 h-16 bg-[#0C0C0D]/5 rounded-lg flex items-center justify-center text-xs font-medium text-[#0C0C0D]/40">
-                CLIENT LOGO
+            <div className="flex flex-wrap justify-center items-center gap-12 opacity-80">
+              {/* CREATIUM Logo */}
+              <div className="flex flex-col items-center justify-center">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  {/* Top-left: light brown square */}
+                  <rect x="0" y="0" width="40" height="40" fill="#D4A574"/>
+                  {/* Top-right: divided diagonally */}
+                  <path d="M40 0 L80 0 L80 40 L40 40 Z" fill="#F5E6D3"/>
+                  <path d="M40 0 L80 40 L80 0 Z" fill="#E8D5A3"/>
+                  {/* Bottom-left: dark teal triangle */}
+                  <path d="M0 40 L40 40 L0 80 Z" fill="#2C5F5F"/>
+                  {/* Bottom-right: muted yellow-gold */}
+                  <rect x="40" y="40" width="40" height="40" fill="#D4B574"/>
+                  <line x1="40" y1="45" x2="75" y2="45" stroke="#C9A961" strokeWidth="2"/>
+                </svg>
+                <span className="mt-2 text-sm font-semibold" style={{color: '#2C5F5F', fontFamily: 'system-ui, -apple-system, sans-serif'}}>
+                  CREATIUM
+                </span>
               </div>
-              <div className="w-32 h-16 bg-[#0C0C0D]/5 rounded-lg flex items-center justify-center text-xs font-medium text-[#0C0C0D]/40">
-                CLIENT LOGO
-              </div>
-              <div className="w-32 h-16 bg-[#0C0C0D]/5 rounded-lg flex items-center justify-center text-xs font-medium text-[#0C0C0D]/40">
-                CLIENT LOGO
-              </div>
-              <div className="w-32 h-16 bg-[#0C0C0D]/5 rounded-lg flex items-center justify-center text-xs font-medium text-[#0C0C0D]/40">
-                CLIENT LOGO
+              
+              {/* cervo Logo */}
+              <div className="flex items-center justify-center gap-2">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g transform="translate(20, 20)">
+                    {/* Pinwheel pattern with teardrop/petal shapes in various blue shades */}
+                    <path d="M 0 -10 L -2 -6 Q -3 -2 -2 2 Q -1 4 0 5 Q 1 4 2 2 Q 3 -2 2 -6 Z" fill="#1E3A8A" transform="rotate(0 0 0)" />
+                    <path d="M 0 -10 L -2 -6 Q -3 -2 -2 2 Q -1 4 0 5 Q 1 4 2 2 Q 3 -2 2 -6 Z" fill="#2563EB" transform="rotate(45 0 0)" />
+                    <path d="M 0 -10 L -2 -6 Q -3 -2 -2 2 Q -1 4 0 5 Q 1 4 2 2 Q 3 -2 2 -6 Z" fill="#1E40AF" transform="rotate(90 0 0)" />
+                    <path d="M 0 -10 L -2 -6 Q -3 -2 -2 2 Q -1 4 0 5 Q 1 4 2 2 Q 3 -2 2 -6 Z" fill="#3B82F6" transform="rotate(135 0 0)" />
+                    <path d="M 0 -10 L -2 -6 Q -3 -2 -2 2 Q -1 4 0 5 Q 1 4 2 2 Q 3 -2 2 -6 Z" fill="#1E3A8A" transform="rotate(180 0 0)" />
+                    <path d="M 0 -10 L -2 -6 Q -3 -2 -2 2 Q -1 4 0 5 Q 1 4 2 2 Q 3 -2 2 -6 Z" fill="#2563EB" transform="rotate(225 0 0)" />
+                    <path d="M 0 -10 L -2 -6 Q -3 -2 -2 2 Q -1 4 0 5 Q 1 4 2 2 Q 3 -2 2 -6 Z" fill="#1E40AF" transform="rotate(270 0 0)" />
+                    <path d="M 0 -10 L -2 -6 Q -3 -2 -2 2 Q -1 4 0 5 Q 1 4 2 2 Q 3 -2 2 -6 Z" fill="#3B82F6" transform="rotate(315 0 0)" />
+                  </g>
+                </svg>
+                <span className="text-lg font-semibold lowercase" style={{color: '#2563EB', fontFamily: 'system-ui, -apple-system, sans-serif'}}>
+                  cervo
+                </span>
               </div>
             </div>
           </motion.div>
@@ -698,7 +718,7 @@ export const AutoGiftLanding = (props: AutoGiftLandingProps) => {
         </div>
       </motion.section>
 
-      <motion.section id="pricing" initial="hidden" whileInView="visible" viewport={{
+      <motion.section id="pricing-details" initial="hidden" whileInView="visible" viewport={{
       once: true,
       margin: "-100px"
     }} variants={staggerChildren} className="py-32 px-4 bg-white">
@@ -715,7 +735,7 @@ export const AutoGiftLanding = (props: AutoGiftLandingProps) => {
           <motion.div variants={fadeInUp} className="bg-gradient-to-br from-[#E2C382]/10 to-[#F0D8B6]/10 rounded-3xl p-12 border-2 border-[#E2C382]/30 mb-12">
             <h3 className="text-2xl font-bold text-[#0C0C0D] mb-8">We include:</h3>
             <div className="grid md:grid-cols-2 gap-6">
-              {['Contact research', 'Gift concepting', 'Sourcing & procurement', 'Branding & packaging', 'Handwritten notes', 'Kitting & fulfillment', 'Project management'].map((item, i) => <motion.div key={item} initial={{
+              {['Contact research', 'Gift concepting', 'Sourcing & procurement', 'Branding & packaging', 'Handwritten notes', 'Kitting & fulfillment', 'Project management', 'Address Validation and Research'].map((item, i) => <motion.div key={item} initial={{
               opacity: 0,
               y: 20
             }} whileInView={{
@@ -776,7 +796,7 @@ export const AutoGiftLanding = (props: AutoGiftLandingProps) => {
         </div>
       </motion.section>
 
-      <motion.section id="use-cases" initial="hidden" whileInView="visible" viewport={{
+      <motion.section id="perfect-for-teams" initial="hidden" whileInView="visible" viewport={{
       once: true,
       margin: "-100px"
     }} variants={staggerChildren} className="py-32 px-4 bg-gradient-to-b from-white to-[#F6F6F4]">
