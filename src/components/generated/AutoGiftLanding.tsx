@@ -666,7 +666,7 @@ export const AutoGiftLanding = (props: AutoGiftLandingProps) => {
                   <p className="text-3xl font-bold text-[#0C0C0D]" data-magicpath-id="238" data-magicpath-path="AutoGiftLanding.tsx">$110 <span className="text-lg font-normal text-[#0C0C0D]/60" data-magicpath-id="239" data-magicpath-path="AutoGiftLanding.tsx">total per recipient</span></p>
                 </SortableContainer>
                 <SortableContainer dndKitId="e721febc-130f-4428-b006-47f13d878e45" containerType="regular" prevTag="div" className="px-6 py-3 bg-gradient-to-r from-[#E2C382]/20 to-[#F0D8B6]/20 rounded-full" data-magicpath-id="240" data-magicpath-path="AutoGiftLanding.tsx">
-                  <span className="text-sm font-medium text-[#073D2B]" data-magicpath-id="241" data-magicpath-path="AutoGiftLanding.tsx">10% service margin</span>
+                  <span className="text-sm font-medium text-[#073D2B]" data-magicpath-id="241" data-magicpath-path="AutoGiftLanding.tsx">20% service margin</span>
                 </SortableContainer>
               </SortableContainer>
             </SortableContainer>
